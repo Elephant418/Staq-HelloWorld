@@ -1,7 +1,7 @@
 Staq HelloWorld Example
 ========================
 
-[Staq](https://github.com/pixel418/Staq) modern & innovative PHP framework for enjoyable web development.
+[Staq](https://github.com/pixel418/Staq) is a modern & innovative PHP framework for enjoyable web development.
 
 This project is a simple Staq HelloWorld example.
 
