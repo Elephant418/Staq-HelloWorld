@@ -1,0 +1,10 @@
+{
+    "require": {
+        "pixel418/staq": "dev-develop"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tzi": ""
+        }
+    }
+}

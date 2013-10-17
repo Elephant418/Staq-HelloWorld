@@ -1,0 +1,10 @@
+*~
+*#
+*.local.perso.ini
+vendor/*
+
+.buildpath
+.project
+.settings
+.idea
+
