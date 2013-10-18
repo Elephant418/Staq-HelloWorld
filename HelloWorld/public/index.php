@@ -3,8 +3,8 @@
 require_once( '../../vendor/autoload.php' );
 
 ( new \Staq\Server )
-	->launch( )
-	->addController( '/(:path)', function($path=NULL) {
+	->getCurrentApplication( )
+	->addController( '/(:path)', function($path='World') {
 		return 'Hello '.$path;
 	})
 	->run( );
