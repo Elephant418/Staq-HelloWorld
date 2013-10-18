@@ -1,0 +1,359 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "eb997ddfc0ebbd3b05884548892b3b55",
+    "packages": [
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "fcdd3e0781ae40c2b9847874e0755ff4f5559688"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/fcdd3e0781ae40c2b9847874e0755ff4f5559688",
+                "reference": "fcdd3e0781ae40c2b9847874e0755ff4f5559688",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2013-04-11 18:53:11"
+        },
+        {
+            "name": "pixel418/eloq",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel418/Eloq.git",
+                "reference": "6145500012570110cf45c144ad76bbf8de717d19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel418/Eloq/zipball/6145500012570110cf45c144ad76bbf8de717d19",
+                "reference": "6145500012570110cf45c144ad76bbf8de717d19",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "pixel418/ubiq": "0.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pixel418\\Eloq": "src/",
+                    "Test\\Pixel418\\Eloq": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas ZILLIOX",
+                    "homepage": "http://zilliox.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Eloq is a cute tool to validate & sanitize a form",
+            "homepage": "https://github.com/Pixel418/Eloq",
+            "keywords": [
+                "form"
+            ],
+            "time": "2013-05-27 17:28:55"
+        },
+        {
+            "name": "pixel418/iniliq",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel418/Iniliq.git",
+                "reference": "e625defaa509a5a5c53755f73d8be73f3b1b9c70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel418/Iniliq/zipball/e625defaa509a5a5c53755f73d8be73f3b1b9c70",
+                "reference": "e625defaa509a5a5c53755f73d8be73f3b1b9c70",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "pixel418/ubiq": "0.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pixel418\\Iniliq": "src/",
+                    "Test\\Pixel418\\Iniliq": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas ZILLIOX",
+                    "homepage": "http://zilliox.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An ini parser for inherited values through multiple configuration files",
+            "homepage": "https://github.com/Pixel418/Iniliq",
+            "keywords": [
+                "ini"
+            ],
+            "time": "2013-05-10 15:45:16"
+        },
+        {
+            "name": "pixel418/markdownify",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel418/Markdownify.git",
+                "reference": "31063053de634564d9ec69a540c6326e3978faf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel418/Markdownify/zipball/31063053de634564d9ec69a540c6326e3978faf6",
+                "reference": "31063053de634564d9ec69a540c6326e3978faf6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "lib",
+            "autoload": {
+                "psr-0": {
+                    "Markdownify": "src",
+                    "Test\\Markdownify": "test"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Kruithof",
+                    "email": "pkruithof@gmail.com",
+                    "homepage": "http://pkruithof.tumblr.com/"
+                },
+                {
+                    "name": "Milian Wolff",
+                    "email": "mail@milianw.de",
+                    "homepage": "http://milianw.de"
+                }
+            ],
+            "description": "The HTML to Markdown converter for PHP ",
+            "homepage": "https://github.com/pixel418/Markdownify",
+            "keywords": [
+                "markdown",
+                "markdownify"
+            ],
+            "time": "2013-05-11 14:36:07"
+        },
+        {
+            "name": "pixel418/staq",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel418/Staq.git",
+                "reference": "935cda01197901117c2e4b6f605bb1e5ba06fbb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel418/Staq/zipball/935cda01197901117c2e4b6f605bb1e5ba06fbb3",
+                "reference": "935cda01197901117c2e4b6f605bb1e5ba06fbb3",
+                "shasum": ""
+            },
+            "require": {
+                "michelf/php-markdown": "1.3.*",
+                "php": ">=5.4.0",
+                "pixel418/eloq": "0.2.*",
+                "pixel418/iniliq": "0.3.*",
+                "pixel418/markdownify": "2.1.*",
+                "pixel418/ubiq": "0.4.*",
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Staq": "src/",
+                    "Example\\Staq": "example/",
+                    "Test\\Staq": "test/",
+                    "Test\\Staq\\Project": "test/resource"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas ZILLIOX",
+                    "homepage": "http://zilliox.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Staq is a small PHP framework for an enjoyable web development",
+            "homepage": "https://github.com/Pixel418/Staq",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2013-10-18 15:41:27"
+        },
+        {
+            "name": "pixel418/ubiq",
+            "version": "v0.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pixel418/Ubiq.git",
+                "reference": "ca733d903340e950a93fea033bd6b6d2a13ccfdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pixel418/Ubiq/zipball/ca733d903340e950a93fea033bd6b6d2a13ccfdd",
+                "reference": "ca733d903340e950a93fea033bd6b6d2a13ccfdd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/UString.php",
+                    "src/UArray.php",
+                    "src/UObject.php",
+                    "src/UDate.php"
+                ],
+                "psr-0": {
+                    "Pixel418\\Ubiq": "src/",
+                    "Test\\Pixel418\\Ubiq": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas ZILLIOX",
+                    "homepage": "http://zilliox.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Functions for readable treatment of string, array & object",
+            "homepage": "https://github.com/Pixel418/Ubiq",
+            "keywords": [
+                "array",
+                "string",
+                "util"
+            ],
+            "time": "2013-05-10 16:34:20"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.14.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8873d7593ad7c120004f177c0fd01459b383c9cb",
+                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.14-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2013-10-15 19:17:38"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pixel418/staq": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
