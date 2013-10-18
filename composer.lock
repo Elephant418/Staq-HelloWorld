@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "eb997ddfc0ebbd3b05884548892b3b55",
+    "hash": "0104d1f0c7607721c6c91609256f7275",
     "packages": [
         {
             "name": "michelf/php-markdown",
@@ -196,12 +196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Pixel418/Staq.git",
-                "reference": "935cda01197901117c2e4b6f605bb1e5ba06fbb3"
+                "reference": "3fb3edab0fa5e9bb0763ee441a07eb7254742c98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Pixel418/Staq/zipball/935cda01197901117c2e4b6f605bb1e5ba06fbb3",
-                "reference": "935cda01197901117c2e4b6f605bb1e5ba06fbb3",
+                "url": "https://api.github.com/repos/Pixel418/Staq/zipball/3fb3edab0fa5e9bb0763ee441a07eb7254742c98",
+                "reference": "3fb3edab0fa5e9bb0763ee441a07eb7254742c98",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-10-18 15:41:27"
+            "time": "2013-10-18 15:46:55"
         },
         {
             "name": "pixel418/ubiq",
